@@ -12,3 +12,14 @@
 - Lastly, we measure the performance of the model by using some metric calculation (e.g. Confusion Matrix, accuracy, precision etc.)
 - Then, we repeat from step 2, but this time we will tune the parameters of the model
 - Keep on repeating this process until the accuracy reach the desired level
+
+## (iii)
+- precision
+    - Formula = TP / (TP + FP)
+- accuracy
+    - Formula = (TP + TN) / (TP + TN + FP + FN)
+
+TP = True  positive  
+FP = False positive  
+TN = True  negative  
+FN = False negative  
