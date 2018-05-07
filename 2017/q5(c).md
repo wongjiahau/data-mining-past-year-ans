@@ -25,3 +25,10 @@ print(f3(a,b))
 - f3 is Mahalanobis??
 
 Note: Refer [DM-02.pdf](http://wble-sl.utar.edu.my/wble-sl/file.php/9981/DM.2018.01_DM-02.pdf)
+
+## (c)(iii)
+Advantage of Manhattan distance over Minkowski distance
+- Manhattan distance usually performs better when the dimensionality is high
+
+Disadvantage of Manhattan distance.  
+- I don't know the answer for this. If you know please create an issue by [clicking here](https://github.com/wongjiahau/data-mining-past-year-ans/issues/new).
