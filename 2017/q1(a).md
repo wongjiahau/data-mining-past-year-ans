@@ -1,4 +1,4 @@
-## 1(a)(i)
+## (i)
 ```py
 # Questions
 a = [2,4,6,8,10]
@@ -12,7 +12,7 @@ print(b[2:])   # (6,8,10)
 print(c[2])    # "TWO"
 ```
 
-## 1(a)(ii)
+## (ii)
 ```python
 b[2] = 3  # Error, 'tuple' object does not support assignment
 
