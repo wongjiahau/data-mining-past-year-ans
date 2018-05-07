@@ -18,6 +18,8 @@
     - Formula = TP / (TP + FP)
 - accuracy
     - Formula = (TP + TN) / (TP + TN + FP + FN)
+- recall 
+    - Formula  = (TP) / (TP + FN)
 
 TP = True  positive  
 FP = False positive  
