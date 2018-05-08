@@ -1,0 +1,7 @@
+- Movie recommendation
+    - To recommend user which movie to watch based on what they had watched previously
+    - Example: Netflix, YouTube
+- Job recommendation
+    - To recommend a job position for you (if you are an employee)
+    - To recommend a suitable employee for you (if you are an employer/boss)
+    - Example: JobStreet, Linked-In, StackOverflow
