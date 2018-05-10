@@ -4,8 +4,18 @@ Tweleve dimensions.
 ## (ii) Cosine distance
 Refer DM-02.
 ```
-cosineSimilarityBetween a and b -> (a dot b)/((vectorLength a) * (vectorLength b))
+@function
+cosineSimilarityBetween a:Number and b:Number -> Number
+  -> (a dot b)/((vectorLength a) * (vectorLength b))
 
+@function
+a:Number[] dot b:Number[] -> Number
+  let result <- 0
+  for i in 0 till a.length
+    result <- result + (a * b)
+  -> result
+
+@function
 vectorLength a:Number[] -> Number
   -> map square_ to a >> sum_ >> squareRoot_
 ```
