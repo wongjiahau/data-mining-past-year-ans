@@ -10,11 +10,9 @@ cosineSimilarityBetween a:Number and b:Number -> Number
 
 @function
 a:Number[] dot b:Number[] -> Number
-  let result <- 0
-  for i in 0 till a.length
-    result <- result + (a * b)
-  -> result
-
+  if a == [] -> 0
+  -> (a.{i} * b.{i}) + (a.{1..} dot b.{1..})
+  
 @function
 vectorLength a:Number[] -> Number
   -> map square_ to a >> sum_ >> squareRoot_
