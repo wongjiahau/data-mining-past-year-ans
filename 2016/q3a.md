@@ -2,7 +2,14 @@
 Tweleve dimensions.
 
 ## (ii) Cosine distance
-No idea.
+Refer DM-02.
+```
+cosineSimilarityBetween a and b -> (a dot b)/((vectorLength a) * (vectorLength b))
+
+vectorLength a:Number[] -> Number
+  -> map square_ to a >> sum_ >> squareRoot_
+```
+
 
 ## (iii) Hamming distance
 ```python
