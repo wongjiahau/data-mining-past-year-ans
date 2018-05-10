@@ -11,7 +11,7 @@ cosineSimilarityBetween a:Number and b:Number -> Number
 @function
 a:Number[] dot b:Number[] -> Number
   if a == [] -> 0
-  -> (a.{i} * b.{i}) + (a.{1..} dot b.{1..})
+  -> (a.{0} * b.{0}) + (a.{1..} dot b.{1..})
   
 @function
 vectorLength a:Number[] -> Number
